@@ -1,0 +1,14 @@
+.body {
+  &__title {
+    margin: 0;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding-left: 12px;
+    max-width: 304px;
+  }
+  
+  &__slide-menu {
+    margin-bottom: 24px;
+    margin-left: 16px;
+  }
+}

@@ -4,6 +4,12 @@
 @import './utils/vars.scss';
 @import './utils/global.scss';
 
-@import './modules/upper-menu.scss';
 @import './loyout/header.scss';
+
+@import './modules/upper-menu.scss';
+@import './modules/slide-menu.scss';
+
 @import './ui/btn.scss';
+@import './ui/title.scss';
+
+@import './body/body.scss';
