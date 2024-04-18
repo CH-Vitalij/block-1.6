@@ -1,3 +1,5 @@
 import '../scss/style.scss'
 
-console.log('Works!')
+import { upperMenu } from './modules/upper-menu.js'
+
+upperMenu()

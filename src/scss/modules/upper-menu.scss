@@ -52,26 +52,9 @@
     background-size: cover;
   }
 
-  @media (min-width: 768px) {
-    &__call {
-      background-image: url('../img/call.png');
-      background-size: cover;
-    }
-
-    &__chat {
-      background-image: url('../img/chat.png');
-      background-size: cover;
-    }
-
-    &__profile {
-      background-image: url('../img/profile.png');
-      background-size: cover;
-    }
-
-    &_visible {
-      position: static;
-      visibility: visible;
-      opacity: 1;
-    }
-  }
+  //   &_visible {
+  //     position: static;
+  //     visibility: visible;
+  //     opacity: 1;
+  //   }
 }
