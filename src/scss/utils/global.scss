@@ -1,0 +1,11 @@
+.page {
+  font-family: $mainFont;
+  font-weight: 400;
+  background-color: $color-page;
+}
+
+.wrapper {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}

@@ -1,0 +1,23 @@
+.header {
+  background-color: $color-default;
+  box-shadow: inset 0 -3px 0 -1px $color-shadow;
+
+  @media (min-width: $tableWidth) {
+    &__upper-menu {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+  }
+
+  &__upper-menu {
+    column-gap: 16px;
+    margin: 0;
+    padding: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  &__upper-menu_hidden {
+    display: none;
+  }
+}

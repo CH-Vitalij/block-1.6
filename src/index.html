@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- <title><%= htmlWebpackPlugin.options.title %></title> -->
+    <title>CPS</title>
+  </head>
+  <body class="page">
+    <div class="wrapper">
+      <header class="page__header header">
+        <div class="header__upper-menu upper-menu">
+          <button class="upper-menu__burger btn"></button>
+          <div class="upper-menu__divider upper-menu_hidden upper-menu_visible"></div>
+          <div class="upper-menu__logo">
+            <img src="../img/Group.png" alt="Логотип" width="97" height="51" />
+          </div>
+          <button class="upper-menu__call upper-menu_hidden upper-menu_visible btn"></button>
+          <button class="upper-menu__chat upper-menu_hidden upper-menu_visible btn"></button>
+          <button class="upper-menu__profile upper-menu_hidden upper-menu_visible btn"></button>
+          <div class="upper-menu__divider"></div>
+          <button class="upper-menu__repair btn"></button>
+          <button class="upper-menu__check-status btn"></button>
+        </div>
+      </header>
+      <main class="body">
+        <div class="container">
+          <div class="body__header">
+            <h1 class="body__title title">Услуги и сервисы</h1>
+            <ul
+              class="header__upper-menu header__upper-menu_hidden header__upper-menu_unhidden upper-menu"
+            >
+              <li class="upper-menu__item">
+                Оставить заявку
+                <img
+                  class="upper-menu__img"
+                  src="./img/repair.png"
+                  alt="Оставить заявку"
+                  width="40"
+                  height="40"
+                />
+              </li>
+              <li class="upper-menu__item">
+                Статус ремонта
+                <img
+                  class="upper-menu__img"
+                  src="./img/checkstatus.png"
+                  alt="Статус ремонта"
+                  width="40"
+                  height="40"
+                />
+              </li>
+            </ul>
+          </div>
+          <nav class="body__slide-menu slide-menu">
+            <div class="slide-menu__fadecopy"></div>
+            <ul class="slide-menu__service">
+              <li class="slide-menu__item">
+                <a class="slide-menu__link" href="#"
+                  >Ремонтируемые устройства</a
+                >
+              </li>
+              <li class="slide-menu__item">
+                <a class="slide-menu__link" href="#">Дополнительные услуги</a>
+              </li>
+              <li class="slide-menu__item">
+                <a class="slide-menu__link" href="#">Цены на услуги</a>
+              </li>
+              <li class="slide-menu__item">
+                <a class="slide-menu__link" href="#"
+                  >Адреса сервисных центров</a
+                >
+              </li>
+              <li class="slide-menu__item">
+                <a class="slide-menu__link" href="#">Специальные цены</a>
+              </li>
+              <li class="slide-menu__item">
+                <a class="slide-menu__link" href="#">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <article class="body__content content">
+          <div class="container">
+            <div class="content__row">
+              <div class="content__item">
+                <input class="content__read-more" type="checkbox" id="post-1" />
+                <div class="content__excerpt excerpt">
+                  <p class="text__size text">
+                    Мы являемся авторизованным сервисным центром по ремонту
+                    техники Dell. Только у нас вы можете отремонтировать свой
+                    ноутбук Dell с официальной гарантией производителя.
+                  </p>
+                  <p class="text__size text">
+                    Мы успешно работаем с 1992 года и заслужили репутацию
+                    надежного партнера, что подтверждает большое количество
+                    постоянных клиентов. Мы гордимся тем, что к нам обращаются
+                    по рекомендациям и, в свою очередь, советуют нас родным и
+                    близким.
+                  </p>
+                </div>
+                <label class="content__label label" for="post-1">
+                  <img
+                    class="content__img"
+                    src="icons\icon.png"
+                    alt=""
+                    width="7.41"
+                    height="10.29"
+                  />
+                </label>
+              </div>
+              <div class="content__image">
+                <img class="content__pic" src="./img/cps.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>
