@@ -26,7 +26,6 @@
   }
 
   &__item {
-    border: white;
     flex: 0 1 auto;
     list-style: none;
     vertical-align: baseline;
@@ -36,10 +35,10 @@
     font-weight: 500;
     white-space: nowrap;
     display: inline-block;
-    color: #7e7e82;
+    color: $color-grey;
     padding: 8px 16px 8px 16px;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: $font-size_sm;
+    line-height: $line-height_md;
     text-decoration: none;
     letter-spacing: -0.2px;
     border-radius: 6px;

@@ -1,23 +1,18 @@
 .page {
   font-family: $mainFont;
   font-weight: 400;
+  font-size: $font-size;
+  line-height: $line-height;
+  letter-spacing: 0.2px;
   background-color: $color-page;
+
+  &__header {
+    margin-bottom: 24px;
+  }
 }
 
 .wrapper {
   display: flex;
   min-height: 100%;
   flex-direction: column;
-}
-
-.text {
-  font-size: 14px;
-  letter-spacing: 0.2px;
-  font-weight: 400;
-
-  &_size {
-    margin-top: 0;
-    margin-bottom: 16px;
-    line-height: 18px;
-  }
 }

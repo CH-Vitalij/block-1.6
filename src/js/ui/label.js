@@ -9,7 +9,7 @@ function label() {
   a1.addEventListener('change', function () {
     if (a1.checked) {
       a4.src = './img/icon_2.png'
-      a3.textContent = 'Скрыть'
+      a3.textContent = 'Свернуть'
     } else {
       a4.src = './img/icon_1.png'
       a3.textContent = 'Читать далее'
