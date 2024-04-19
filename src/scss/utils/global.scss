@@ -9,3 +9,15 @@
   min-height: 100%;
   flex-direction: column;
 }
+
+.text {
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+
+  &_size {
+    margin-top: 0;
+    margin-bottom: 16px;
+    line-height: 18px;
+  }
+}

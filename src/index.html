@@ -15,22 +15,30 @@
       <header class="page__header header">
         <div class="header__upper-menu upper-menu">
           <button class="upper-menu__burger btn"></button>
-          <div class="upper-menu__divider upper-menu_hidden"></div>
+          <div
+            class="upper-menu__divider upper-menu_hidden upper-menu_visible"
+          ></div>
           <div class="upper-menu__logo">
-            <img src="../img/Group.png" alt="Логотип" width="97" height="51" />
+            <img src="../img/Group.png" alt="Логотип" width="96.55" height="50.81" />
           </div>
-          <button class="upper-menu__call upper-menu_hidden btn"></button>
-          <button class="upper-menu__chat upper-menu_hidden btn"></button>
-          <button class="upper-menu__profile upper-menu_hidden btn"></button>
+          <button
+            class="upper-menu__call upper-menu_hidden upper-menu_visible btn"
+          ></button>
+          <button
+            class="upper-menu__chat upper-menu_hidden upper-menu_visible btn"
+          ></button>
+          <button
+            class="upper-menu__profile upper-menu_hidden upper-menu_visible btn"
+          ></button>
           <div class="upper-menu__divider"></div>
           <button class="upper-menu__repair btn"></button>
           <button class="upper-menu__check-status btn"></button>
         </div>
       </header>
       <main class="body">
-          <div class="body__header">
-            <h1 class="body__title title">Услуги и сервисы</h1>
-            <!-- <ul
+        <div class="body__header">
+          <h1 class="body__title title">Услуги и сервисы</h1>
+          <!-- <ul
               class="header__upper-menu header__upper-menu_hidden header__upper-menu_unhidden upper-menu"
             >
               <li class="upper-menu__item">
@@ -54,67 +62,59 @@
                 />
               </li>
             </ul> -->
-          </div>
-          <nav class="body__slide-menu slide-menu">
-            <div class="slide-menu__fadecopy"></div>
-            <ul class="slide-menu__service">
-              <li class="slide-menu__item">
-                <a class="slide-menu__link" href="#"
-                  >Ремонтируемые устройства</a
-                >
-              </li>
-              <li class="slide-menu__item">
-                <a class="slide-menu__link" href="#">Дополнительные услуги</a>
-              </li>
-              <li class="slide-menu__item">
-                <a class="slide-menu__link" href="#">Цены на услуги</a>
-              </li>
-              <li class="slide-menu__item">
-                <a class="slide-menu__link" href="#"
-                  >Адреса сервисных центров</a
-                >
-              </li>
-              <li class="slide-menu__item">
-                <a class="slide-menu__link" href="#">Специальные цены</a>
-              </li>
-              <li class="slide-menu__item">
-                <a class="slide-menu__link" href="#">Отзывы</a>
-              </li>
-            </ul>
-          </nav>
-        <article class="body__content content">
-          <div class="container">
-            <div class="content__row">
-              <div class="content__item">
-                <input class="content__read-more" type="checkbox" id="post-1" />
-                <div class="content__excerpt excerpt">
-                  <p class="text__size text">
-                    Мы являемся авторизованным сервисным центром по ремонту
-                    техники Dell. Только у нас вы можете отремонтировать свой
-                    ноутбук Dell с официальной гарантией производителя.
-                  </p>
-                  <p class="text__size text">
-                    Мы успешно работаем с 1992 года и заслужили репутацию
-                    надежного партнера, что подтверждает большое количество
-                    постоянных клиентов. Мы гордимся тем, что к нам обращаются
-                    по рекомендациям и, в свою очередь, советуют нас родным и
-                    близким.
-                  </p>
-                </div>
-                <!-- <label class="content__label label" for="post-1">
-                  <img
-                    class="content__img"
-                    src="icons\icon.png"
-                    alt=""
-                    width="7.41"
-                    height="10.29"
-                  />
-                </label> -->
-              </div>
-              <div class="content__image">
-                <img class="content__pic" src="./img/cps.png" alt="" />
-              </div>
+        </div>
+        <nav class="body__slide-menu slide-menu">
+          <div class="slide-menu__fadecopy"></div>
+          <ul class="slide-menu__service">
+            <li class="slide-menu__item">
+              <a class="slide-menu__link" href="#">Ремонтируемые устройства</a>
+            </li>
+            <li class="slide-menu__item">
+              <a class="slide-menu__link" href="#">Дополнительные услуги</a>
+            </li>
+            <li class="slide-menu__item">
+              <a class="slide-menu__link" href="#">Цены на услуги</a>
+            </li>
+            <li class="slide-menu__item">
+              <a class="slide-menu__link" href="#">Адреса сервисных центров</a>
+            </li>
+            <li class="slide-menu__item">
+              <a class="slide-menu__link" href="#">Специальные цены</a>
+            </li>
+            <li class="slide-menu__item">
+              <a class="slide-menu__link" href="#">Отзывы</a>
+            </li>
+          </ul>
+        </nav>
+        <article class="about">
+          <div class="about__item">
+            <input class="about__read-more" type="checkbox" id="post-1" />
+            <div class="about__excerpt excerpt">
+              <p class="text_size text">
+                Мы являемся авторизованным сервисным центром по ремонту техники
+                Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+                официальной гарантией производителя.
+              </p>
+              <p class="text_size text">
+                Мы успешно работаем с 1992 года и заслужили репутацию надежного
+                партнера, что подтверждает большое количество постоянных
+                клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям
+                и, в свою очередь, советуют нас родным и близким.
+              </p>
             </div>
+            <label class="label" for="post-1">
+              <img
+                class="about__img"
+                src="./img/icon_1.png"
+                alt=""
+                width="7.41"
+                height="10.29"
+              />
+              <span>Читать далее</span>
+            </label>
+          </div>
+          <div class="about__image">
+            <img class="about__pic" src="./img/cps.png" alt="" />
           </div>
         </article>
       </main>

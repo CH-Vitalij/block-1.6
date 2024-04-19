@@ -1,0 +1,38 @@
+.about {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  &__read-more {
+    display: none;
+  }
+
+  &__excerpt {
+    margin: 0;
+    margin-bottom: 16px;
+    max-height: 90px;
+    overflow-y: hidden;
+  }
+
+  &__read-more:checked ~ &__excerpt {
+    max-height: 100%;
+    overflow-y: visible;
+  }
+
+  &__img {
+    margin-right: 8px;
+  }
+
+  &__image {
+    flex: 1 1 auto;
+  }
+
+  &__pic {
+    width: 100%;
+  }
+}

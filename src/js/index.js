@@ -1,5 +1,5 @@
 import '../scss/style.scss'
 
-import { upperMenu } from './modules/upper-menu.js'
+import { label } from './ui/label.js'
 
-upperMenu()
+label()

@@ -28,13 +28,6 @@
     background-size: cover;
   }
 
-  &_hidden {
-    position: absolute;
-    top: -100%;
-    visibility: hidden;
-    opacity: 0;
-  }
-
   &__divider {
     width: 2px;
     height: 32px;
@@ -52,9 +45,18 @@
     background-size: cover;
   }
 
-  //   &_visible {
-  //     position: static;
-  //     visibility: visible;
-  //     opacity: 1;
-  //   }
+  &_hidden {
+    position: absolute;
+    top: -100%;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  &_visible {
+    @media (min-width: 768px) {
+      position: static;
+      visibility: visible;
+      opacity: 1;
+    }
+  }
 }
